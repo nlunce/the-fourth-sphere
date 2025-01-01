@@ -13,11 +13,8 @@ website:
   title: 'GPS Positioning: A Mathematical Perspective'
   navbar:
     tools:
-      - icon: gitlab
-        href: https://gitlab.com/naterrl15/the-fourth-sphere
-    left:
-      - href: ./code/index.html
-        text: Code
+      - icon: github
+        href: https://github.com/nlunce/the-fourth-sphere
 
 format:
   html:
