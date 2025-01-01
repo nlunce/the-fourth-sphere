@@ -128,7 +128,7 @@ The implementation was tested using the following dataset:
 
 ### Accompanying Code
 
-The [**accompanying code implementation**](./rc04-code.html) defines the residual function, applies the `fsolve` solver, and outputs the computed results.
+The [**accompanying code implementation**](./code/index.html) defines the residual function, applies the `fsolve` solver, and outputs the computed results.
 :::
 
 ## **Results**
@@ -200,7 +200,7 @@ Each equation represents a sphere with the satellite at its center. The receiver
 
 ### Code Implementation
 
-The solution process involves three key stages, all of which are implemented in the accompanying [Python code](./rc04-code.html).
+The solution process involves three key stages, all of which are implemented in the accompanying [Python code](./code/index.html).
 :::
 
 ### **Reducing the Nonlinear System to a Linear Form**
@@ -528,7 +528,7 @@ The analysis was conducted as follows:
 
 ### **Accompanying Code**
 
-The [accompanying code](./rc04-code.html) performs the following steps:
+The [accompanying code](./code/index.html) performs the following steps:
 
 1. **Generate Satellite Positions**:
 
