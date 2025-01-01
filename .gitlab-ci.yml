@@ -1,0 +1,15 @@
+image: quarto-dev/quarto-cli:latest
+
+pages:
+  script:
+    # Install necessary dependencies (if needed)
+    - apt-get update && apt-get install -y pandoc
+    # Render the Quarto project
+    - quarto render
+    # Move the generated files to the public directory
+    - cp -r _site/* public/
+  artifacts:
+    paths:
+      - public
+  only:
+    - main # Replace with your default branch name if different
